@@ -1,8 +1,6 @@
-# tqq-ui 组件库
+# 快速开始
 
-### 快速开始
-
-#### 1.安装
+#### 安装
 
 ```bash
 # npm
@@ -12,7 +10,9 @@ npm i tqq-ui
 yarn add tqq-ui
 ```
 
-#### 2.引用
+#### 引用
+
+> 在 main.js 中引用组件库
 
 ```javascript
 // 全部引入

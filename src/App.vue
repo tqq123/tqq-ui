@@ -1,19 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Demo />
+    <m-card imgSrc="vite.png" summary="Vite零基础快速入门">
+      <template slot="footer">
+        <div class="footer">
+          <div class="level">中级 · 528人</div>
+          <div class="price">￥299.00</div>
+        </div>
+      </template>
+    </m-card>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // HelloWorld,
+  },
+  mounted() {},
+};
 </script>
 
 <style>
@@ -24,5 +30,17 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.footer {
+  padding: 0 8px;
+  font-size: 12px;
+  text-align: left;
+}
+.level {
+  color: #9199a1;
+  margin-bottom: 8px;
+}
+.price {
+  color: #f01414;
 }
 </style>
