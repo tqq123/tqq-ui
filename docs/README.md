@@ -1,6 +1,6 @@
-# 快速开始
+# Quick Start
 
-#### 安装
+#### Install
 
 ```bash
 # npm
@@ -10,7 +10,7 @@ npm i tqq-ui
 yarn add tqq-ui
 ```
 
-#### 引用
+#### Import
 
 > 在 main.js 中引用组件库
 

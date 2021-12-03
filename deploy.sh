@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/tqq123/tqq-ui.git
+git push -f https://github.com/tqq123/tqq-ui.git master:gh-pages
 
 cd -

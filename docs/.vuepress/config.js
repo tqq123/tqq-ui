@@ -1,5 +1,6 @@
 module.exports = {
+  base: "/tqq-ui/",
   themeConfig: {
-    sidebar: ["/tqqUI", "/componentDocs/card"],
+    sidebar: ["/", "/componentDocs/card", "/guide/guide"],
   },
 };

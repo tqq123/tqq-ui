@@ -18,7 +18,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build:js": "webpack",
-    "build:css": "webpack --config ./webpack.css.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },

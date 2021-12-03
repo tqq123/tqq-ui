@@ -4,7 +4,7 @@
 
 ### 示例
 
-<m-card imgSrc="tqq-ui/vite.png" summary="Vite零基础快速入门">
+<m-card imgSrc="/tqq-ui/vite.png" summary="Vite零基础快速入门">
   <template slot="footer">
     <div class="footer">
       <div class="level">中级 · 528人</div>
